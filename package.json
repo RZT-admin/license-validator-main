@@ -1,0 +1,23 @@
+{
+  "name": "license-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarti/license-validator.git"
+  },
+  "author": "Jordi Marti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmarti/license-validator/issues"
+  },
+  "homepage": "https://github.com/jmarti/license-validator#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
