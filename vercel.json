@@ -31,11 +31,11 @@
             "source": "/api/(.*)"
         }
     ],
-    "routes":
+    "rewrites":
     [
         {
-            "dest": "index.js",
-            "src": "/(.*)"
+            "destination": "index.js",
+            "source": "/(.*)"
         }
     ],
     "version": 2
